@@ -1,3 +1,126 @@
 {
-  "products": {}
+  "products": {
+    "https://mall-jp.fujifilm.com/shop/g/g16587294/": {
+      "name": "チェキ専用フィルム 1パック",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16587294/",
+      "stable_status": "in_stock",
+      "last_change": "2026-08-24 14:02:27 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16537043/": {
+      "name": "チェキ専用フィルム ブラック",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16537043/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:30 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16799926/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (ハートスケッチ)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16799926/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:32 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16746486/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (コンタクトシート)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16746486/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:34 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16812376/": {
+      "name": "チェキ専用フィルム ソフトラベンダー",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16812376/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:37 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16547737/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (マカロン)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16547737/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:39 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16648402/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (マーメイドテイル)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16648402/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:40 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16276405/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (レインボー)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16276405/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:42 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16827709/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (PHOTO SLIDE)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16827709/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:45 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16838708/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (SPRINKLES)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16838708/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:47 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16952803/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (SOFT GLITTER)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16952803/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:48 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16974021/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (PASTEL GALAXY)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16974021/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:51 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16537328/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (ハローキティ3)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16537328/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:53 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16387204/": {
+      "name": "チェキ専用フィルム 絵柄入りフレームタイプ (キキ＆ララ)",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16387204/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:56 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16549278/": {
+      "name": "インスタントカラーフィルム instax SQUARE 1パック",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16549278/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:57 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16576520/": {
+      "name": "インスタントカラーフィルム instax SQUARE 2パック",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16576520/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:02:59 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16576532/": {
+      "name": "インスタントカラーフィルム instax SQUARE ブラック",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16576532/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:03:02 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16671320/": {
+      "name": "インスタントカラーフィルム instax SQUARE レインボー",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16671320/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:03:03 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16800397/": {
+      "name": "インスタントカラーフィルム instax SQUARE サンセット",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16800397/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:03:06 JST"
+    },
+    "https://mall-jp.fujifilm.com/shop/g/g16633495/": {
+      "name": "インスタントカラーフィルム instax SQUARE スターイルミネーション",
+      "url": "https://mall-jp.fujifilm.com/shop/g/g16633495/",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-08-24 14:03:08 JST"
+    }
+  },
+  "heartbeat_week": "2026-W35",
+  "state_updated_at": "2026-08-24 14:03:08 JST"
 }
