@@ -1,8 +1,9 @@
 name: FUJIFILM Stock Monitor
+run-name: FUJIFILM monitor — ${{ github.event_name }}
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '2-57/5 * * * *'
   workflow_dispatch:
     inputs:
       mode:
