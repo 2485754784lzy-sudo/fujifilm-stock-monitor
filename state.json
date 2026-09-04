@@ -10,9 +10,9 @@
     "https://mall-jp.fujifilm.com/shop/g/g16537043/": {
       "name": "チェキ専用フィルム ブラック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16537043/",
-      "stable_status": "out_of_stock",
-      "last_change": "2026-09-01 16:39:30 JST",
-      "last_notification": "2026-09-01 16:24:14 JST"
+      "stable_status": "in_stock",
+      "last_change": "2026-09-04 16:29:16 JST",
+      "last_notification": "2026-09-04 16:29:16 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16799926/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (ハートスケッチ)",
@@ -23,8 +23,9 @@
     "https://mall-jp.fujifilm.com/shop/g/g16746486/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (コンタクトシート)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16746486/",
-      "stable_status": "out_of_stock",
-      "last_change": "2026-08-24 14:02:34 JST"
+      "stable_status": "in_stock",
+      "last_change": "2026-09-04 16:29:25 JST",
+      "last_notification": "2026-09-04 16:29:25 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16812376/": {
       "name": "チェキ専用フィルム ソフトラベンダー",
@@ -124,5 +125,5 @@
     }
   },
   "heartbeat_week": "2026-W36",
-  "state_updated_at": "2026-09-04 13:43:54 JST"
+  "state_updated_at": "2026-09-04 16:30:01 JST"
 }
