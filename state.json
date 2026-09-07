@@ -3,9 +3,9 @@
     "https://mall-jp.fujifilm.com/shop/g/g16587294/": {
       "name": "チェキ専用フィルム 1パック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16587294/",
-      "stable_status": "out_of_stock",
-      "last_change": "2026-09-04 13:43:10 JST",
-      "last_notification": "2026-09-04 13:12:08 JST"
+      "stable_status": "in_stock",
+      "last_change": "2026-09-07 16:21:36 JST",
+      "last_notification": "2026-09-07 16:21:36 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16537043/": {
       "name": "チェキ専用フィルム ブラック",
@@ -125,5 +125,5 @@
     }
   },
   "heartbeat_week": "2026-W37",
-  "state_updated_at": "2026-09-07 00:09:44 JST"
+  "state_updated_at": "2026-09-07 16:22:17 JST"
 }
