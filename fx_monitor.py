@@ -9,7 +9,6 @@ from pathlib import Path
 import smtplib
 import ssl
 import sys
-import urllib.parse
 import urllib.request
 from email.message import EmailMessage
 
@@ -66,40 +65,48 @@ def fetch_json(url: str) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
+def validate_rate(rate_100: float) -> float:
+    rate_100 = float(rate_100)
+    if not 3.0 < rate_100 < 6.0:
+        raise RuntimeError(f"implausible JPY/CNY rate: {rate_100}")
+    return rate_100
+
+
 def fetch_jpy_cny() -> tuple[float, str]:
-    """Return CNY per 100 JPY and source label."""
-    symbol = urllib.parse.quote("JPYCNY=X", safe="")
-    urls = [
-        f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1m&range=1d",
-        f"https://query2.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1m&range=1d",
-    ]
+    """Return CNY per 100 JPY and source label, with multiple fallbacks."""
     errors: list[str] = []
 
-    for url in urls:
-        try:
-            data = fetch_json(url)
-            result = data["chart"]["result"][0]
-            meta = result.get("meta", {})
-            price = meta.get("regularMarketPrice")
+    # Primary: live mid-market rate, no key, generous public rate limit.
+    try:
+        data = fetch_json(
+            "https://www.currencyexchangetool.com/api/v1/convert?amount=100&from=JPY&to=CNY"
+        )
+        if data.get("success") is False:
+            raise RuntimeError(data.get("error") or "API returned success=false")
+        rate_100 = validate_rate(float(data["result"]))
+        updated = data.get("updatedAt")
+        source = "CurrencyExchangeTool live mid-market"
+        if updated:
+            source += f" ({updated})"
+        return rate_100, source
+    except Exception as exc:
+        errors.append(f"CurrencyExchangeTool: {type(exc).__name__}: {exc}")
 
-            if price is None:
-                closes = (
-                    result.get("indicators", {})
-                    .get("quote", [{}])[0]
-                    .get("close", [])
-                )
-                price = next((x for x in reversed(closes) if x is not None), None)
+    # Fallback 1: no-key API with ~60 second cache.
+    try:
+        data = fetch_json("https://ratata.money/api/v1/rates/latest?base=JPY&symbols=CNY")
+        rate_100 = validate_rate(float(data["rates"]["CNY"]) * 100.0)
+        return rate_100, "Ratata FX API"
+    except Exception as exc:
+        errors.append(f"Ratata: {type(exc).__name__}: {exc}")
 
-            if price is None:
-                raise RuntimeError("Yahoo response did not contain a usable price")
-
-            rate_100 = float(price) * 100.0
-            if not 3.0 < rate_100 < 6.0:
-                raise RuntimeError(f"implausible JPY/CNY rate: {rate_100}")
-
-            return rate_100, "Yahoo Finance (JPYCNY=X)"
-        except Exception as exc:
-            errors.append(f"{type(exc).__name__}: {exc}")
+    # Fallback 2: hourly-updated public API, used only if both live sources fail.
+    try:
+        data = fetch_json("https://api.exchangerate.fun/latest?base=JPY")
+        rate_100 = validate_rate(float(data["rates"]["CNY"]) * 100.0)
+        return rate_100, "ExchangeRate.fun hourly fallback"
+    except Exception as exc:
+        errors.append(f"ExchangeRate.fun: {type(exc).__name__}: {exc}")
 
     raise RuntimeError("all FX sources failed: " + " | ".join(errors))
 
@@ -150,7 +157,7 @@ def alert_body(rate_100: float, threshold: float, source: str) -> str:
 
 def run_monitor() -> None:
     rate_100, source = fetch_jpy_cny()
-    log(f"JPY/CNY: 100 JPY = {rate_100:.4f} CNY")
+    log(f"JPY/CNY: 100 JPY = {rate_100:.4f} CNY | {source}")
 
     reached = highest_reached_threshold(rate_100)
     if reached is None:
