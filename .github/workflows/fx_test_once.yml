@@ -24,3 +24,5 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
         run: python fx_monitor.py test-email
+
+# retry after replacing Yahoo direct calls with resilient FX API fallbacks
