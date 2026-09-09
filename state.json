@@ -3,8 +3,8 @@
     "https://mall-jp.fujifilm.com/shop/g/g16587294/": {
       "name": "チェキ専用フィルム 1パック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16587294/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-09 13:34:31 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-09 16:48:17 JST",
       "last_notification": "2026-09-09 13:34:31 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16537043/": {
@@ -54,22 +54,22 @@
     "https://mall-jp.fujifilm.com/shop/g/g16827709/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (PHOTO SLIDE)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16827709/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-09 16:34:31 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-09 16:48:34 JST",
       "last_notification": "2026-09-09 16:34:31 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16838708/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (SPRINKLES)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16838708/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-09 16:34:36 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-09 16:48:37 JST",
       "last_notification": "2026-09-09 16:34:36 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16952803/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (SOFT GLITTER)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16952803/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-09 16:34:41 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-09 16:48:39 JST",
       "last_notification": "2026-09-09 16:34:41 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16974021/": {
@@ -128,5 +128,5 @@
     }
   },
   "heartbeat_week": "2026-W37",
-  "state_updated_at": "2026-09-09 16:35:03 JST"
+  "state_updated_at": "2026-09-09 16:48:57 JST"
 }
