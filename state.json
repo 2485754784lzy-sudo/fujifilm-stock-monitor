@@ -10,8 +10,8 @@
     "https://mall-jp.fujifilm.com/shop/g/g16537043/": {
       "name": "チェキ専用フィルム ブラック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16537043/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-11 15:18:43 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-11 15:38:04 JST",
       "last_notification": "2026-09-11 15:18:43 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16799926/": {
@@ -23,8 +23,8 @@
     "https://mall-jp.fujifilm.com/shop/g/g16746486/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (コンタクトシート)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16746486/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-11 15:19:48 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-11 15:38:09 JST",
       "last_notification": "2026-09-11 15:19:48 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16812376/": {
@@ -42,15 +42,15 @@
     "https://mall-jp.fujifilm.com/shop/g/g16648402/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (マーメイドテイル)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16648402/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-11 15:20:01 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-11 15:38:15 JST",
       "last_notification": "2026-09-11 15:20:01 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16276405/": {
       "name": "チェキ専用フィルム 絵柄入りフレームタイプ (レインボー)",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16276405/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-11 15:20:08 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-11 15:38:17 JST",
       "last_notification": "2026-09-11 15:20:08 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16827709/": {
@@ -130,5 +130,5 @@
     }
   },
   "heartbeat_week": "2026-W37",
-  "state_updated_at": "2026-09-11 15:21:47 JST"
+  "state_updated_at": "2026-09-11 15:38:42 JST"
 }
