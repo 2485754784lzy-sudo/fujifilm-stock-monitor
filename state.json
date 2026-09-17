@@ -101,15 +101,15 @@
     "https://mall-jp.fujifilm.com/shop/g/g16576520/": {
       "name": "インスタントカラーフィルム instax SQUARE 2パック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16576520/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-17 13:19:46 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-17 13:35:24 JST",
       "last_notification": "2026-09-17 13:19:46 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16576532/": {
       "name": "インスタントカラーフィルム instax SQUARE ブラック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16576532/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-17 13:19:50 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-17 13:35:27 JST",
       "last_notification": "2026-09-17 13:19:50 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16671320/": {
@@ -121,18 +121,18 @@
     "https://mall-jp.fujifilm.com/shop/g/g16800397/": {
       "name": "インスタントカラーフィルム instax SQUARE サンセット",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16800397/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-17 13:19:58 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-17 13:35:30 JST",
       "last_notification": "2026-09-17 13:19:58 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16633495/": {
       "name": "インスタントカラーフィルム instax SQUARE スターイルミネーション",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16633495/",
-      "stable_status": "in_stock",
-      "last_change": "2026-09-17 13:20:02 JST",
+      "stable_status": "out_of_stock",
+      "last_change": "2026-09-17 13:35:33 JST",
       "last_notification": "2026-09-17 13:20:02 JST"
     }
   },
   "heartbeat_week": "2026-W38",
-  "state_updated_at": "2026-09-17 13:20:02 JST"
+  "state_updated_at": "2026-09-17 13:35:33 JST"
 }
