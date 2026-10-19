@@ -95,8 +95,9 @@
     "https://mall-jp.fujifilm.com/shop/g/g16549278/": {
       "name": "インスタントカラーフィルム instax SQUARE 1パック",
       "url": "https://mall-jp.fujifilm.com/shop/g/g16549278/",
-      "stable_status": "out_of_stock",
-      "last_change": "2026-08-24 14:02:57 JST"
+      "stable_status": "in_stock",
+      "last_change": "2026-10-19 15:40:00 JST",
+      "last_notification": "2026-10-19 15:40:00 JST"
     },
     "https://mall-jp.fujifilm.com/shop/g/g16576520/": {
       "name": "インスタントカラーフィルム instax SQUARE 2パック",
@@ -134,5 +135,5 @@
     }
   },
   "heartbeat_week": "2026-W43",
-  "state_updated_at": "2026-10-19 01:37:00 JST"
+  "state_updated_at": "2026-10-19 15:40:11 JST"
 }
